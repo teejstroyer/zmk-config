@@ -71,11 +71,11 @@
 
         layer2 {
             bindings = <
-&kp TILDE         &kp F1  &kp F2  &kp F3            &kp F4             &kp F5    &mmv MOVE_UP     &kp F6  &kp F7          &kp F8            &kp F9             &kp F10          &kp F11
-&trans            &trans  &trans  &kp LEFT_BRACE    &kp RIGHT_BRACE    &trans    &mmv MOVE_DOWN   &trans  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp F12
-&trans            &trans  &trans  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &trans    &mmv MOVE_LEFT   &trans  &kp MINUS       &kp PLUS          &kp UNDERSCORE     &kp EQUAL        &trans
-&trans            &trans  &trans  &trans            &trans             &trans    &mmv MOVE_RIGHT  &trans  &trans          &trans            &trans             &trans           &trans
-&kp K_PLAY_PAUSE  &trans  &trans  &trans            &trans             &trans    &mkp LCLK        &trans  &trans          &bootloader       &sys_reset         &soft_off
+&kp TILDE         &kp F1  &kp F2  &kp F3  &kp F4  &kp F5    &mmv MOVE_UP     &kp F6  &kp F7          &kp F8            &kp F9             &kp F10          &kp F11
+&trans            &trans  &trans  &trans  &trans  &trans    &mmv MOVE_DOWN   &trans  &kp LEFT_BRACE  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp RIGHT_BRACE  &kp F12
+&trans            &trans  &trans  &trans  &trans  &trans    &mmv MOVE_LEFT   &trans  &kp MINUS       &kp PLUS          &kp UNDERSCORE     &kp EQUAL        &trans
+&trans            &trans  &trans  &trans  &trans  &trans    &mmv MOVE_RIGHT  &trans  &trans          &trans            &trans             &trans           &trans
+&kp K_PLAY_PAUSE  &trans  &trans  &trans  &trans  &trans    &mkp LCLK        &trans  &trans          &bootloader       &sys_reset         &soft_off
             >;
 
             sensor-bindings = <&inc_dec_kp K_NEXT K_PREVIOUS>;
