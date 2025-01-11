@@ -68,7 +68,7 @@
 &rgb_ug RGB_ON   &rgb_ug RGB_EFF  &rgb_ug RGB_SPI  &rgb_ug RGB_HUI  &rgb_ug RGB_BRI  &rgb_ug RGB_SAI    &trans     &kp HOME        &kp PAGE_DOWN   &kp PAGE_UP   &kp END    &trans   &kp F12
 &rgb_ug RGB_OFF  &rgb_ug RGB_EFR  &rgb_ug RGB_SPD  &rgb_ug RGB_HUD  &rgb_ug RGB_BRD  &rgb_ug RGB_SAD    &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp UP_ARROW  &kp RIGHT  &trans   &trans
 &trans           &trans           &trans           &trans           &trans           &trans             &trans     &trans          &trans          &trans        &trans     &trans   &trans
-&bt BT_CLR       &soft_off        &sys_reset       &bootloader      &trans           &trans             &mkp RCLK  &trans          &tog 3          &studio_unlock        &trans     &trans
+&bt BT_CLR       &soft_off        &sys_reset       &bootloader      &trans           &trans             &mkp RCLK  &trans          &tog 3          &trans        &trans     &trans
             >;
 
             display-name = "LAYER1";
